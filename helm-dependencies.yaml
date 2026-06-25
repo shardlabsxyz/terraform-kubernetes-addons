@@ -2,53 +2,50 @@ apiVersion: v2
 name: Handle terraform-kubernetes-addons helm chart dependencies update
 version: 1.0.0
 dependencies:
-  - name: admiralty
-    version: 0.13.2
-    repository: https://charts.admiralty.io
   - name: secrets-store-csi-driver
-    version: 1.5.6
+    version: 1.6.0
     repository: https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
   - name: amazon-eks-pod-identity-webhook
     repository: https://jkroepke.github.io/helm-charts/
-    version: 2.6.2
+    version: 2.6.4
   - name: aws-cloud-controller-manager
     version: 0.0.11
     repository: https://kubernetes.github.io/cloud-provider-aws
   - name: aws-ebs-csi-driver
-    version: 2.58.0
+    version: 2.60.1
     repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
   - name: aws-efs-csi-driver
-    version: 4.0.0
+    version: 4.2.0
     repository: https://kubernetes-sigs.github.io/aws-efs-csi-driver
   - name: aws-for-fluent-bit
     version: 0.2.0
     repository: https://aws.github.io/eks-charts
   - name: aws-load-balancer-controller
-    version: 3.2.1
+    version: 3.3.0
     repository: https://aws.github.io/eks-charts
   - name: aws-node-termination-handler
     version: 0.21.0
     repository: https://aws.github.io/eks-charts
   - name: cert-manager
-    version: v1.20.1
+    version: v1.20.2
     repository: https://charts.jetstack.io
   - name: cert-manager-csi-driver
-    version: v0.13.0
+    version: v0.15.0
     repository: https://charts.jetstack.io
   - name: cilium
-    version: 1.19.2
+    version: 1.19.4
     repository: https://helm.cilium.io/
   - name: cluster-autoscaler
-    version: 9.56.0
+    version: 9.57.0
     repository: https://kubernetes.github.io/autoscaler
   - name: external-dns
-    version: 1.20.0
+    version: 1.21.1
     repository: https://kubernetes-sigs.github.io/external-dns/
   - name: flux-operator
-    version: 0.46.0
+    version: 0.50.0
     repository: oci://ghcr.io/controlplaneio-fluxcd/charts
   - name: flux-instance
-    version: 0.46.0
+    version: 0.50.0
     repository: oci://ghcr.io/controlplaneio-fluxcd/charts
   - name: grafana-mcp
     version: 0.3.1
@@ -63,16 +60,16 @@ dependencies:
     version: 1.7.2
     repository: https://charts.helm.sh/stable
   - name: karpenter
-    version: 1.11.0
+    version: 1.12.1
     repository: oci://public.ecr.aws/karpenter
   - name: keda
-    version: 2.19.0
+    version: 2.20.0
     repository: https://kedacore.github.io/charts
   - name: kong
     version: 3.2.0
     repository: https://charts.konghq.com
   - name: kube-prometheus-stack
-    version: 83.3.0
+    version: 86.1.1
     repository: https://prometheus-community.github.io/helm-charts
   - name: linkerd2-cni
     version: 30.12.2
@@ -87,7 +84,7 @@ dependencies:
     version: 30.12.11
     repository: https://helm.linkerd.io/stable
   - name: loki
-    version: 6.55.0
+    version: 7.0.0
     repository: https://grafana.github.io/helm-charts
   - name: promtail
     version: 6.17.1
@@ -105,32 +102,32 @@ dependencies:
     version: 0.28.1
     repository: https://prometheus-community.github.io/helm-charts
   - name: prometheus-blackbox-exporter
-    version: 11.9.1
+    version: 11.10.0
     repository: https://prometheus-community.github.io/helm-charts
   - name: scaleway-webhook
     version: v0.0.1
     repository: https://particuleio.github.io/charts
   - name: sealed-secrets
-    version: 2.18.4
+    version: 2.18.6
     repository: https://bitnami-labs.github.io/sealed-secrets
   - name: oci://registry-1.docker.io/bitnamicharts/thanos
     version: 15.9.2
     repository: ""
   - name: tigera-operator
-    version: v3.31.4
+    version: v3.32.0
     repository: https://docs.projectcalico.org/charts
   - name: traefik
-    version: 39.0.7
+    version: 40.2.0
     repository: https://helm.traefik.io/traefik
   - name: oci://registry-1.docker.io/bitnamicharts/memcached
     version: 7.5.3
     repository: ""
   - name: velero
-    version: 12.0.0
+    version: 12.0.2
     repository: https://vmware-tanzu.github.io/helm-charts
   - name: victoria-metrics-k8s-stack
-    version: 0.72.6
+    version: 0.81.0
     repository: https://victoriametrics.github.io/helm-charts/
   - name: reloader
-    version: 2.2.9
+    version: 2.2.12
     repository: https://stakater.github.io/stakater-charts
