@@ -324,10 +324,6 @@ locals {
           enabled = true
         }
       }
-      image = {
-        tag        = ""
-        repository = ""
-      }
     }
   }
 
@@ -481,8 +477,6 @@ locals {
             create: true
             serviceAccount:
               name: ${local.addons_intermediate.cluster-autoscaler.iam.service_account}
-          image:
-            tag: ${local.addons_intermediate.cluster-autoscaler.image.tag}
           extraArgs:
             balance-similar-node-groups: true
             skip-nodes-with-local-storage: false
