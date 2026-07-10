@@ -454,7 +454,8 @@ locals {
     external-dns = {
       helm_release = {
         values = <<-VALUES
-          provider: aws
+          provider:
+            name: aws
           txtPrefix: "ext-dns-"
           txtOwnerId: ${local.cluster_name}
           logFormat: json
