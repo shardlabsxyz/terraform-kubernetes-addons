@@ -1,5 +1,5 @@
 [tools]
-opentofu = "1.13.0"
+opentofu = "1.13.1"
 pre-commit = "4.6.2"
 terraform = "1.16.4"
 terraform-docs = "0.24.0"
