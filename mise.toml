@@ -1,7 +1,7 @@
 [tools]
 opentofu = "1.12.1"
 pre-commit = "4.6.2"
-terraform = "1.15.5"
+terraform = "1.16.4"
 terraform-docs = "0.24.0"
 tflint = "0.63.1"
 zizmor = "1.30.1"
