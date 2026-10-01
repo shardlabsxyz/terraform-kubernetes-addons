@@ -114,7 +114,7 @@ dependencies:
     version: v3.32.2
     repository: https://docs.projectcalico.org/charts
   - name: traefik
-    version: 40.3.0
+    version: 41.6.1
     repository: https://helm.traefik.io/traefik
   - name: oci://registry-1.docker.io/bitnamicharts/memcached
     version: 7.5.3
