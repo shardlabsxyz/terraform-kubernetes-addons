@@ -9,7 +9,7 @@ dependencies:
     repository: https://jkroepke.github.io/helm-charts/
     version: 2.6.5
   - name: aws-cloud-controller-manager
-    version: 0.0.11
+    version: 0.0.12
     repository: https://kubernetes.github.io/cloud-provider-aws
   - name: aws-ebs-csi-driver
     version: 2.60.1
