@@ -3,16 +3,13 @@
   "extends": [
     ":separateMajorReleases",
     ":ignoreUnstable",
-    ":prImmediately",
     ":updateNotScheduled",
-    ":disableRateLimiting",
     ":ignoreModulesAndTests",
     ":gitSignOff",
     "group:monorepos",
     "group:recommended",
     "helpers:disableTypesNodeMajor",
     "workarounds:all",
-    ":dependencyDashboard",
     "helpers:pinGitHubActionDigests"
   ],
   "baseBranchPatterns": [
@@ -39,7 +36,18 @@
     "enabled": true
   },
   "commitMessageExtra": "to {{newVersion}} (was {{currentVersion}})",
+  "schedule": [
+    "at any time"
+  ],
+  "dependencyDashboard": true,
+  "dependencyDashboardLabels": [
+    "dependency-dashboard"
+  ],
+  "dependencyDashboardApproval": false,
+  "prCreation": "immediate",
   "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "branchConcurrentLimit": 0,
   "packageRules": [
     {
       "description": "Label major updates",
