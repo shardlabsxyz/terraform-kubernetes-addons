@@ -27,7 +27,7 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 44.171.3
+    rev: 44.172.1
     hooks:
       - id: renovate-config-validator
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
