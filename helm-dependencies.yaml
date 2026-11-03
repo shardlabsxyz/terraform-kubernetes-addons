@@ -36,7 +36,7 @@ dependencies:
     version: 1.20.4
     repository: https://helm.cilium.io/
   - name: cluster-autoscaler
-    version: 9.59.0
+    version: 9.60.0
     repository: https://kubernetes.github.io/autoscaler
   - name: external-dns
     version: 1.23.0
