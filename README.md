@@ -23,6 +23,8 @@ The project keeps provider-specific wiring in separate modules, while common add
 
 OpenTofu compatibility is implemented with `.tofu` override files where needed. Generated module documentation intentionally uses the Terraform view of a module so provider and requirement tables stay stable.
 
+See [dependency upgrade notes](./UPGRADING.md) before updating existing installations to the current provider and chart versions.
+
 ## Modules
 
 Available module directories:
