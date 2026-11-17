@@ -39,10 +39,10 @@
   "schedule": [
     "at any time"
   ],
-  "dependencyDashboard": true,
-  "dependencyDashboardLabels": [
-    "dependency-dashboard"
-  ],
+  "dependencyDashboard": {
+    "enabled": true,
+    "labels": ["dependency-dashboard"]
+  },
   "dependencyDashboardApproval": false,
   "prCreation": "immediate",
   "prHourlyLimit": 0,
